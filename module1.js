@@ -47,3 +47,42 @@ else
 }
 
 
+let amountOfPeople = 20;
+let pizzaSlices = 8;
+let total1 = amountOfPeople/pizzaSlices;
+console.log("pizza:" + Math.ceil(total1))
+
+let randomNumber = Math.round(Math.random() * 10);
+console.log(randomNumber);
+
+
+
+
+let myNumber = Math.round(Math.random() * 10); // Generate a random number between 1 and 100
+
+console.log('The number to guess is:', myNumber);
+
+// Function to check the user's guess
+function checkGuess(userGuess) {
+    if(isNaN(userGuess)) {
+        console.log("Invalid input. Please enter a valid number.");
+    } else if(userGuess > myNumber) {
+        console.log('Your number is too high. Try again lower.');
+    } else if(userGuess < myNumber) {
+        console.log('Your number is too low. Try again higher.');
+    } else {
+        console.log(`Congratulations! You guessed ${myNumber} correctly.`);
+    }
+}
+
+// Test with some guesses
+checkGuess(6); // Too high
+checkGuess(9);
+checkGuess(3);
+checkGuess(myNumber); // Correct guess
+
+let celsuis = fahrenheit - 32 * 5/9;
+let fahrenheit = 90;
+let number
+console.log(`${celsuis}`)
+
