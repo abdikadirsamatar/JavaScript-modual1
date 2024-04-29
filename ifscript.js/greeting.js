@@ -1,18 +1,18 @@
-let currentHour = 1659;
+"use strict";
+// Input
 
 
-
-// if  currenthour <= 10
-// else if currenthour >= 10:1
-//else currenthour >= 5 
-
-if(currentHour < 1000) {
-    console.log(`Good morning! its currently ${currentHour} in the morning!`);
+let time = 1700;
+ 
+// Algorithm
+if (time < 1000){
+    console.log(`Good Morning!`);
 }
-    
-else if (currentHour < 1700 ){
-    console.log(`Have a good day so far`);
+
+else if (time = 1000>1659){
+    console.log(`Good Day!`);
 }
-else{
-    console.log(` see you tommorrow `);
+
+else{ 
+console.log(`Good Evening!`);
 }

@@ -15,11 +15,9 @@ let taxeRate = null
  if(fileingstatus == `single` ){
     console.log(` your single you annoulamount is ${annualAmount}`)
     if(annualAmount <= 12000){
-        console.log(` your tax rate is .5 `)
-        taxeRate = .05
+        console.log(` your tax rate is .5`)
+        taxeRate = .5
     }
 
         
     }
- } 
-
