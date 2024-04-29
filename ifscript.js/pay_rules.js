@@ -10,7 +10,7 @@
  if( hoursWorked > 40){
     regulartotalpay = payRate*40
     grosspay = regulartotalpay + extraHourspay
-    console.log(`You worked over 40 hour this week paycke comes out to ${netpay}`)
+    console.log(`You worked over 40 hour this week paycke comes out to ${grosspay}`)
  }
  else if( hoursWorked<= 40){
     regulartotalpay = payRate*hoursWorked
